@@ -9,9 +9,9 @@ import java.util.Collection;
  */
 public class ExcelSheet<T> {
 
-    private String sheetName;
-    private String[] headers;
-    private Collection<T> dataset;
+    private String sheetName; // sheet的名字
+    private String[] headers; // sheet的表头
+    private Collection<T> dataset; // sheet的数据集
 
     /**
      * @return the sheetName
